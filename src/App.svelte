@@ -17,7 +17,9 @@
 		<TodoList bind:todoItems={myList}/>
 	{/if}
 	<TodoAdd on:new-item-event={({detail}) => addItem(detail)}/>
+	<TodoAdd on:new-item-event={({detail}) => addItem(detail)}/>
 </main>
+
 
 <style>
 	.title {

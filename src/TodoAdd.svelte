@@ -11,7 +11,7 @@
 </script>
 
 <main>
-<input type="text" id="description" bind:value={item}/>
+<input type="text" bind:value={item}/>
 <button type="button" on:click={add}>Add</button> 
 
 </main>
